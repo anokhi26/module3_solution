@@ -1,0 +1,73 @@
+
+#nav-header{
+    background-color: #f2dede;
+    border-radius: 0;
+    border: 1px solid #337ab7;
+
+
+}
+#name{
+    margin-top: -5px;
+    text-shadow: 1px 1px 1px #222;
+
+}
+
+#nav-list{
+    background: #f9f2f4;
+}
+
+#nav-list a{
+    color: #337ab7;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #337ab7;
+}
+
+
+#list1, #list3 {
+    border: 1px solid #337ab7;
+    font-size: 1.4em;
+}
+#list2{
+    font-size: 1.4em;
+}
+.jumbotron{
+    height: 100px;
+background-color: transparent;
+}
+
+#heading{
+padding-top: 10px;
+}
+
+#title1, #title2, #title3{
+font-size: 1.8em;
+    width: 100%;
+    text-align: center
+}
+
+#para1, #para2, #para3{
+    background-color: thistle;
+    border: 1px solid #337ab7;
+    padding: 10px 10px 10px 10px;
+    text-align: center
+
+}
+@media (max-width: 767px) {
+    #nav-header{
+        background-color: #f2dede;
+        border-radius: 0;
+        border: 1px solid #337ab7;
+position: relative;
+
+    }
+
+    #heading{
+        padding-top :-10px;
+    }
+}
